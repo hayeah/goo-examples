@@ -53,6 +53,11 @@ type App struct {
 }
 
 func (a *App) Run() error {
+	err := a.DB.Ping()
+	if err != nil {
+		return err
+	}
+
 	switch {
 	case a.Args.Checkout != nil:
 		log.Printf("checkout %v", a.Args.Checkout)

@@ -1,7 +1,7 @@
 [Database]
 
 Dialect = "sqlite3"
-DSN = "mem.db"
+DSN = "app.db"
 MigrationsPath = "./migrations"
 
 [Logging]
