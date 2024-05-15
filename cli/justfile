@@ -2,7 +2,7 @@ wire:
     go run github.com/google/wire/cmd/wire .
 
 run:
-    go run ./cmd/cli
+    CONFIG_FILE=cfg.toml go run ./cmd
 
 dev:
-    go run github.com/cortesi/modd/cmd/modd@latest
+    CONFIG_FILE=cfg.toml go run github.com/cortesi/modd/cmd/modd@latest
