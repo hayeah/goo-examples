@@ -4,6 +4,7 @@ go 1.22.2
 
 require (
 	github.com/google/wire v0.6.0
+	github.com/google/wire/cmd/wire v0.6.0
 	github.com/hayeah/goo v0.0.0-20240515005936-72a4978263f8
 )
 
